@@ -1,5 +1,3 @@
-from pprint import pprint
-
 import sqlalchemy as sq
 from sqlalchemy import MetaData, Table, func, Column, String, Integer, ForeignKey, Numeric, select, desc
 from sqlalchemy.ext.declarative import declarative_base
